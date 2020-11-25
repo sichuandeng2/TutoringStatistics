@@ -13,13 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@chakra-ui/react": "^1.0.1",
-    "@emotion/react": "^11.1.1",
-    "@emotion/styled": "^11.0.0",
-    "framer-motion": "^2.9.4",
     "next": "^10.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-icons": "^3.11.0",
     "reacticons": "0.0.1",
     "viviui": "^1.7.3"
   }

@@ -1,12 +1,14 @@
-import {ChakraProvider,theme,CSSReset} from "@chakra-ui/react"
+import {ThemeProvider,theme,CSSReset} from "viviui"
 import Home from "./Home"
 
 function HomePage() {
+
   return (
-    <ChakraProvider theme={theme}>
+    
+    <ThemeProvider theme={theme}>
       <CSSReset/>
       <Home/>
-    </ChakraProvider>
+    </ThemeProvider>
   )
 }
 export default HomePage
